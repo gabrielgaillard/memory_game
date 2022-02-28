@@ -61,7 +61,6 @@ function gameControl(noCarte) { // limite à 2 le retournement des cartes et mod
                 cartesRetournees = [];
                 if (nbPairesTrouvees == 14) { /// si tu as trouvé 14 paires tu as terminé la partie !
                     window.alert("Bravo tu as gagné dans le temps imparti !!! :D, Tu peux recharger la page pour rejouer :)");
-
                     //TEMPS A AFFICHER
                     var value_timer = document.getElementById("timer").textContent; // selection la valeur du champs timer 
                     document.getElementById("container_score").style.display = "none"; //  masque le timer car la partie est terminée
@@ -72,8 +71,6 @@ function gameControl(noCarte) { // limite à 2 le retournement des cartes et mod
                             url: 'index.php', // j'envoie ma donnée vers index.php en méthode GET
                             data: 'time=' + value_timer
                         });
-
-
                     });
                 }
             }, 750);

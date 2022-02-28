@@ -1,7 +1,6 @@
 //**********************************************************//
 // FONCTIONNEMENT DU TIMER                                 //
 //*********************************************************//
-
 // je déclare mes variables
 var i = 0;
 let temps = 120 // exprimé en seconde il correspond à 2 minutes il sera le temps souhaité
@@ -19,8 +18,6 @@ function diminuerTemps() {
   }
 }
 setInterval(diminuerTemps, 1000)
-
-
 
 //Fonctionnement de la progress bar
 function move() { //deplacement de la progress bar tout au long de la partie.

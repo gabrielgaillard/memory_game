@@ -7,7 +7,6 @@ $times = $timesStatement->fetchAll();
 foreach ($times as $time) {
     $display_best_time = $time['best_time']; //j'affecte à ma variable display_best_time le temps récupéré en base de donnée, ainsi je vais pouvoir l'afficher dans mon span portant l'id "best_time".
 }
-
 if (isset($_GET["time"])) {
     $player_time = $_GET["time"]; // je récupère en GET & j'affecte a ma variable player_time le temps réalisé par le joueur que j'ai précédemment envoyé en AJAX dans index.js
 
@@ -26,7 +25,6 @@ if (isset($_GET["time"])) {
     <link href="Assets/CSS/index.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <!-- j'intègre Jquery , j'ai choisi de l'utiliser pour l'ajax présent dans index.js L70 -->
 </head>
-
 <body>
     <header>
         <h1 id="principal_title"> Jeu de m&eacute;moire </h1>
