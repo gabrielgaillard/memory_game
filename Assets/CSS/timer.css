@@ -1,0 +1,13 @@
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 10px;
+  height: 30px;
+  background-color: green;
+}
+#timer{
+  text-align:center;
+}

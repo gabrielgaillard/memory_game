@@ -1,0 +1,17 @@
+#principal_title{
+    text-align:center;
+}
+#container_game{
+    text-align:center;
+}
+#container_game tr td {
+    width:7%;
+    display:inline;
+}
+#container_game tr td img{
+    width:7%;
+
+}
+#best_time{
+    color:green;
+}
